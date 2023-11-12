@@ -27,9 +27,6 @@
     line-height:250%;
     padding-left: 40px;
   }
-
-
-  
 .para{
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -45,14 +42,15 @@
 .para:hover{
         text-decoration: underline;
 }
-
-
-.container{
+.allCards{
+    width: 100%;
     display: flex;
-    align-items: center;
-    padding-left: 100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-
+.allCards >*{
+    margin: 10px 0;
+}
 .card{
     padding: 10px;
     background-color: #dfd3c3;
@@ -60,8 +58,8 @@
     flex-direction: column;
     justify-content: center;
     border-radius: 8px;
-    width: 500%;
-    margin-right: 500%;
+    width: 23%;
+    height: 500px;
 }
 .imgpro img{
     object-fit: contain;
@@ -107,63 +105,5 @@
     transition: 1s;
 }
 .fvrt{
-    padding-bottom: 10px;
-    position: relative;
-    bottom: 30px;
-}
-
-.card1{
-    padding: 10px;
-    background-color: #dfd3c3;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 8px;
-    width: 500%;
-    margin-right: 500%;
-    position: relative;
-    bottom: 467px;
-    left: 400px;
-}
-
-.card2{
-    padding: 10px;
-    background-color: #dfd3c3;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 8px;
-    width: 500%;
-    margin-right: 500%;
-    position: relative;
-    bottom: 935px;
-    left: 800px;
-}
-
-.card3{
-    padding: 10px;
-    background-color: #dfd3c3;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 8px;
-    width: 500%;
-    margin-right: 500%;
-    position: relative;
-    bottom: 958px;
-    left: 800px;
-    margin-top: 80px;
-}
-.card4{
-    padding: 10px;
-    background-color: #dfd3c3;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 8px;
-    width: 500%;
-    margin-right: 500%;
-    position: relative;
-    bottom: 1426px;
-    left: 400px;
+  width: 10%;
 }

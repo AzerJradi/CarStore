@@ -7,10 +7,12 @@
 body{
   width:65%;
   margin: 0 auto;
+    background-color: burlywood;
 }
 #para{
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
+    letter-spacing: 2Px;
     line-height: 1.5;
     margin-top: 120px ;
     margin-bottom: 20px;
@@ -19,6 +21,8 @@ body{
     background-color: #F2F2F2;
     padding: 10px;
     border: 1px solid #D0D0D0;
+    background-color: transparent;
+    border: transparent;
 }
 #para:hover{
     text-decoration: underline;

@@ -3,6 +3,22 @@
     --blue: #26577C;
     --black: #141010;
   } 
+.login{
+position: relative;
+right: 670px;
+bottom: 10px;
+border: transparent;
+border-radius: 12px;
+width: 100px;
+height: 40px;
+background-color: var(--beige);
+color: black;
+font-size: 24Px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.login:hover{
+  background-color: var(--blue);
+}  
 /* my website all colors */  
 body{
   width:65%;
@@ -93,4 +109,7 @@ h1{
 }
 #porshe{
   padding-left: 10px;
+}
+body{
+  background-color: burlywood;
 }
