@@ -103,3 +103,22 @@ h2{
     transition: all 0.4s ease;
   }
   
+  /* *{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.allAni{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ani{
+    width: 42.5px;
+    height: 42.25px;
+    border: 1px solid green;
+}
+.ani:hover{
+    background-color: green;
+}   */

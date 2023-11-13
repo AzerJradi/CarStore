@@ -1,3 +1,6 @@
+img{
+  width: 300px;
+}
 :root {
     --beige: #FDE5D4;
     --blue: #26577C;
@@ -61,16 +64,48 @@ nav a {
 
 /* style cards of shoppoing */
 
-.allCArsGetted{
-    width: 70%;
-    margin: 200px auto;
-}
 .cardShopCar{
-    margin: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-right: 120px;
+  margin-top: 150px;
 }
-.cardShopCar img{
-    width: 20%;
+.card{
+  background-color: whitesmoke;
+  height: 143px;
+  width: 650px;
+  border-radius: 20px;
+}
+.imgg{
+  border-radius: 12px;
+}
+h2{
+  margin-left: 340px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  letter-spacing: 2px;
+  position: relative;
+  bottom: 130px
+}
+span{
+  margin-left: 450px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 28px;
+  letter-spacing: 2px;
+  position: relative;
+  bottom: 185px
+}
+.input{
+  align-items: center;
+  padding-left: 8Px;
+  width: 20px;
+}
+.quant{
+  margin-left: 340px;
+  position: relative;
+  bottom: 160Px;
+}
+.aa{
+  width: 30px;
+  height: 30px;
 }
