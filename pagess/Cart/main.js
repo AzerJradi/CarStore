@@ -1,4 +1,4 @@
-let allCArdsGettedHTML = document.querySelector(".allCArsGetted")
+let allCArdsGettedHTML = document.querySelector(".cardShopCar")
 let dataGettedFromLocalStroge = JSON.parse(localStorage.getItem("carSaved")) 
 console.log(dataGettedFromLocalStroge);
 let allCardGetted = dataGettedFromLocalStroge.map(item =>(
@@ -12,7 +12,7 @@ let allCardGetted = dataGettedFromLocalStroge.map(item =>(
         <button class="minus">-</button>
         <input type="number" value="1">
         <button class="plus">+</button>
-        <button class="del>X</button>
+        <button class="del">X</button>
     </div>
 </div>
 </div>
