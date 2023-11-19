@@ -6,11 +6,11 @@
 // })
 // }
 let data = [
-    { id: 1, img: "../imagess/Model_S.jpg", name: "Model S", prix: "$75,000" },
-    { id: 2, img: "../imagess/model_Y.jpg", name: "Model Y", prix: "$50,000" },
-    { id: 3, img: "../imagess/Model_X.jpg", name: "Model X", prix: "$80,000" },
-    { id: 4, img: "../imagess/model_3.jpg", name: "Model 3", prix: "$55,000" },
-    { id: 5, img: "../imagess/tesla_roadster.jpg", name: "Roadster", prix: "$200,000" }
+    { id: Math.random(), img: "../imagess/Model_S.jpg", name: "Model S", prix: "$75,000" },
+    { id: Math.random(), img: "../imagess/model_Y.jpg", name: "Model Y", prix: "$50,000" },
+    { id: Math.random(), img: "../imagess/Model_X.jpg", name: "Model X", prix: "$80,000" },
+    { id: Math.random(), img: "../imagess/model_3.jpg", name: "Model 3", prix: "$55,000" },
+    { id: Math.random(), img: "../imagess/tesla_roadster.jpg", name: "Roadster", prix: "$200,000" }
 ];
 let allCards = document.querySelector(".allCards");
 let allCardMapped = data.map(el => {

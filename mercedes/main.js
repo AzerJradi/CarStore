@@ -1,9 +1,9 @@
 let data = [
-    { id: 1, img: "../imagess/Gclass.jpg", name: "G class", prix: "$139,900" },
-    { id: 2, img: "../imagess/gt_black_series.jpg", name: "GT Black", prix: "$1,050,000" },
-    { id: 3, img: "../imagess/Mercedes-AMG_GT_S.jpg", name: "AMG GT S", prix: "$124,950" },
-    { id: 4, img: "../imagess/GLS_maybach.jpg", name: "GLS maybach", prix: "$1,900,000" },
-    { id: 5, img: "../imagess/gt_36_s_e_performance.jfif", name: "gt 36 s e", prix: "$5,000,000" }
+    { id: Math.random(), img: "../imagess/Gclass.jpg", name: "G class", prix: "$139,900" },
+    { id: Math.random(), img: "../imagess/gt_black_series.jpg", name: "GT Black", prix: "$1,050,000" },
+    { id: Math.random(), img: "../imagess/Mercedes-AMG_GT_S.jpg", name: "AMG GT S", prix: "$124,950" },
+    { id: Math.random(), img: "../imagess/GLS_maybach.jpg", name: "GLS maybach", prix: "$1,900,000" },
+    { id: Math.random(), img: "../imagess/gt_36_s_e_performance.jfif", name: "gt 36 s e", prix: "$5,000,000" }
 ];
 let allCards = document.querySelector(".allCards");
 let allCardMapped = data.map(el => {

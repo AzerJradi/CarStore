@@ -1,9 +1,9 @@
 let data = [
-    { id: 1, img: "../imagess/Skyline_GT-R.jpg", name: "Skyline GT-R", prix: "$140,000" },
-    { id: 2, img: "../imagess/Supra_mk4.jpg", name: "Supra mk4", prix: "$100,000" },
-    { id: 3, img: "../imagess/Supra_mk5.jpg", name: "Supra mk5", prix: "$118,000" },
-    { id: 4, img: "../imagess/Bentley_Mulliner_Batur($2,800,000).jpg", name: "Bentley Mulliner", prix: "$2,800,000" },
-    { id: 5, img: "../imagess/Lexus_LFA.jfif", name: "Lexus LFA", prix: "$731,000" },
+    { id: Math.random(), img: "../imagess/Skyline_GT-R.jpg", name: "Skyline GT-R", prix: "$140,000" },
+    { id: Math.random(), img: "../imagess/Supra_mk4.jpg", name: "Supra mk4", prix: "$100,000" },
+    { id: Math.random(), img: "../imagess/Supra_mk5.jpg", name: "Supra mk5", prix: "$118,000" },
+    { id: Math.random(), img: "../imagess/Bentley_Mulliner_Batur($2,800,000).jpg", name: "Bentley Mulliner", prix: "$2,800,000" },
+    { id: Math.random(), img: "../imagess/Lexus_LFA.jfif", name: "Lexus LFA", prix: "$731,000" },
     // {id:6 , img: "./special/Subaru_STI.jpg", name:"Subaru STI", prix:"$40,000"}
 ];
 let allCards = document.querySelector(".allCards");

@@ -1,9 +1,9 @@
 let data = [
-    { id: 1, img: "../imagess/Bugatti_chiron.jpg", name: "Chiron", prix: "$3,000,000" },
-    { id: 2, img: "../imagess/Bugatti_Centodieci.jpg", name: "Centodieci", prix: "$9,000,000" },
-    { id: 3, img: "../imagess/Bugatti_Divo.jpg", name: "Divo", prix: "$5,800,000" },
-    { id: 4, img: "../imagess/Bugatti_Vyron.jpg", name: "Veyron", prix: "$1,900,000" },
-    { id: 5, img: "../imagess/Bugatti_W16_Mistral.jfif", name: "W16 Mistral", prix: "$5,000,000" }
+    { id: Math.random(), img: "../imagess/Bugatti_chiron.jpg", name: "Chiron", prix: "$3,000,000" },
+    { id: Math.random(), img: "../imagess/Bugatti_Centodieci.jpg", name: "Centodieci", prix: "$9,000,000" },
+    { id: Math.random(), img: "../imagess/Bugatti_Divo.jpg", name: "Divo", prix: "$5,800,000" },
+    { id: Math.random(), img: "../imagess/Bugatti_Vyron.jpg", name: "Veyron", prix: "$1,900,000" },
+    { id: Math.random(), img: "../imagess/Bugatti_W16_Mistral.jfif", name: "W16 Mistral", prix: "$5,000,000" }
 ];
 let allCards = document.querySelector(".allCards");
 let allCardMapped = data.map(el => {

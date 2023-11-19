@@ -1,9 +1,9 @@
 let data = [
-    { id: 1, img: "../imagess/Porsche_911.jpg", name: "Porshe 911", prix: "$590,000" },
-    { id: 2, img: "../imagess/Porsche_718.jpg", name: "Porsche 718", prix: "$63,000" },
-    { id: 3, img: "../imagess/Porsche_Cayenne.jpg", name: "Cayenne", prix: "$80,000" },
-    { id: 4, img: "../imagess/Porsche_Panamera.jpg", name: "Panamera", prix: "$122,000" },
-    { id: 5, img: "../imagess/Porsche_Taycan.jpg", name: "Taycan", prix: "$86,000" }
+    { id: Math.random(), img: "../imagess/Porsche_911.jpg", name: "Porshe 911", prix: "$590,000" },
+    { id: Math.random(), img: "../imagess/Porsche_718.jpg", name: "Porsche 718", prix: "$63,000" },
+    { id: Math.random(), img: "../imagess/Porsche_Cayenne.jpg", name: "Cayenne", prix: "$80,000" },
+    { id: Math.random(), img: "../imagess/Porsche_Panamera.jpg", name: "Panamera", prix: "$122,000" },
+    { id: Math.random(), img: "../imagess/Porsche_Taycan.jpg", name: "Taycan", prix: "$86,000" }
 ];
 let allCards = document.querySelector(".allCards");
 let allCardMapped = data.map(el => {

@@ -65,19 +65,23 @@ nav a {
 /* style cards of shoppoing */
 
 .cardShopCar{
+  margin: 15% auto !important;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  margin-right: 120px;
-  margin-top: 150px;
+}
+.cardShopCar>*{
+  margin-bottom: 20px;
 }
 .card{
   background-color: whitesmoke;
-  height: 143px;
+  height: 200px;
   width: 650px;
   border-radius: 20px;
 }
 .imgg{
   border-radius: 12px;
+  height: 200px;
 }
 h2{
   margin-left: 340px;
@@ -85,10 +89,10 @@ h2{
   font-size: 28px;
   letter-spacing: 2px;
   position: relative;
-  bottom: 130px
+  bottom: 180px;
 }
 span{
-  margin-left: 450px;
+  margin-left: 350px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 28px;
   letter-spacing: 2px;
