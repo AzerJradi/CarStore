@@ -1,9 +1,9 @@
 let data = [
-    { id: 1, img: "./pagani/Pagani_Utopia.jpg", name: "Utopia", prix: "$2,200,000" },
-    { id: 2, img: "./pagani/Pagani_Huayra.jpg", name: "Huayra", prix: "$4,000,000" },
-    { id: 3, img: "./pagani/Pagani_Zonda.jpg", name: "Zonda", prix: "$7,500,000" },
-    { id: 4, img: "./pagani/Pagani_HP_Barchetta.jpg", name: "HP Barchetta", prix: "$17,000,000" },
-    { id: 5, img: "./pagani/pagani_imola.jpg", name: "Imola", prix: "$5,400,000" }
+    { id: 1, img: "../imagess/Pagani_Utopia.jpg", name: "Utopia", prix: "$2,200,000" },
+    { id: 2, img: "../imagess/Pagani Huayra.jpg", name: "Huayra", prix: "$4,000,000" },
+    { id: 3, img: "../imagess/Pagani_Zonda.jpg", name: "Zonda", prix: "$7,500,000" },
+    { id: 4, img: "../imagess/Pagani_HP_Barchetta.jpg", name: "HP Barchetta", prix: "$17,000,000" },
+    { id: 5, img: "../imagess/pagani_imola.jpg", name: "Imola", prix: "$5,400,000" }
 ];
 let allCards = document.querySelector(".allCards");
 let allCardMapped = data.map(el => {

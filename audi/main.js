@@ -1,9 +1,9 @@
 let data = [
-    { id: 1, img: "./audi/Audi_R8_GT.jpg", name: "Audi R8 GT", prix: "$220,000" },
-    { id: 2, img: "./audi/audi_RS7.jpg", name: "Audi RS7", prix: "$125,000" },
-    { id: 3, img: "./audi/Audi_R8.jpg", name: "Audi R8", prix: "$152,000" },
-    { id: 4, img: "./audi/Audi_RS5.jpg", name: "Audi RS5", prix: "$85,000" },
-    { id: 5, img: "./audi/AUDI_RSQ8.jfif", name: "AUDI RSQ8", prix: "$114,500" }
+    { id: 1, img: "../imagess/Audi_R8_GT.jpg", name: "Audi R8 GT", prix: "$220,000" },
+    { id: 2, img: "../imagess/audi_RS7.jpg", name: "Audi RS7", prix: "$125,000" },
+    { id: 3, img: "../imagess/Audi_R8.jpg", name: "Audi R8", prix: "$152,000" },
+    { id: 4, img: "../imagess/Audi_RS5.jpg", name: "Audi RS5", prix: "$85,000" },
+    { id: 5, img: "../imagess/AUDI_RSQ8.jfif", name: "AUDI RSQ8", prix: "$114,500" }
 ];
 let allCards = document.querySelector(".allCards");
 let allCardMapped = data.map(el => {

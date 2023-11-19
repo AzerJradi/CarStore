@@ -16,6 +16,15 @@ color: black;
 font-size: 24Px;
 font-family: Arial, Helvetica, sans-serif;
 }
+.btnn{
+  font-size: 24px;
+  color: gray;
+  text-decoration: none;
+}
+.btnn:hover{
+  text-decoration: underline;
+  color: darkgray;
+}
 .login:hover{
   background-color: var(--blue);
 }  

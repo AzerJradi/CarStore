@@ -1,9 +1,9 @@
 let data = [
-    { id: 1, img: "./BMW/BMW_Z4.jfif", name: "BMW Z4", prix: "$55,000" },
-    { id: 2, img: "./BMW/BMW_M8.jpg", name: "BMW M8", prix: "$130,000" },
-    { id: 3, img: "./BMW/BMW_M3.jpg", name: "BMW M3", prix: "$71,200" },
-    { id: 4, img: "./BMW/BMW_2_Series.jpg", name: "BMW 2 Series", prix: "$47,200" },
-    { id: 5, img: "./BMW/BMW_5_Series.jpg", name: "BMW 5 Series", prix: "$57,600" }
+    { id: 1, img: "../imagess/BMW_Z4.jfif", name: "BMW Z4", prix: "$55,000" },
+    { id: 2, img: "../imagess/BMW_M8.jpg", name: "BMW M8", prix: "$130,000" },
+    { id: 3, img: "../imagess/BMW_M3.jpg", name: "BMW M3", prix: "$71,200" },
+    { id: 4, img: "../imagess/BMW_2_Series.jpg", name: "BMW 2 Series", prix: "$47,200" },
+    { id: 5, img: "../imagess/BMW_5_Series.jpg", name: "BMW 5 Series", prix: "$57,600" }
 ];
 let allCards = document.querySelector(".allCards");
 let allCardMapped = data.map(el => {

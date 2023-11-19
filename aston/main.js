@@ -1,9 +1,9 @@
 let data = [
-    { id: 1, img: "./aston martin/Aston_Martin_Valhalla($800,000).jpg", name: "Valhalla", prix: "$800,900" },
-    { id: 2, img: "./aston martin/V8_Vantage.jpg", name: "V8 Vantage", prix: "$150,000" },
-    { id: 3, img: "./aston martin/DBS_Superleggera.jpg", name: "DBS", prix: "$314,000" },
-    { id: 4, img: "./aston martin/Vanquish_S.jpg", name: "Vanquish S", prix: "$300,000" },
-    { id: 5, img: "./aston martin/d11.jpg", name: "DB11", prix: "$217,000" }
+    { id: 1, img: "../imagess/Aston_Martin_Valhalla($800,000).jpg", name: "Valhalla", prix: "$800,900" },
+    { id: 2, img: "../imagess/V8_Vantage.jpg", name: "V8 Vantage", prix: "$150,000" },
+    { id: 3, img: "../imagess/DBS_Superleggera.jpg", name: "DBS", prix: "$314,000" },
+    { id: 4, img: "../imagess/Vanquish_S.jpg", name: "Vanquish S", prix: "$300,000" },
+    { id: 5, img: "../imagess/DB11.jfif", name: "DB11", prix: "$217,000" }
 ];
 let allCards = document.querySelector(".allCards");
 let allCardMapped = data.map(el => {

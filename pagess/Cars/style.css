@@ -3,6 +3,9 @@
     --blue: #26577C;
     --black: #141010;
   } 
+.img{
+    width: 300px;
+}  
 /* my website all colors */  
 body{
   width:65%;

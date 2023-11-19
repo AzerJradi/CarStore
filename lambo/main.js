@@ -1,9 +1,9 @@
 let data = [
-    { id: 1, img: "./lambo/Lamborghini_Aventador.jfif", name: "Aventador", prix: "$499,000" },
-    { id: 2, img: "./lambo/Lamborghini_Tormenta.jfif", name: "Tormenta", prix: "$240,000" },
-    { id: 3, img: "./lambo/Lamborghini_Sián.jpg", name: "Sian", prix: "$3,500,000" },
-    { id: 4, img: "./lambo/Lamborghini_Urus.jpg", name: "Urus", prix: "$270,000" },
-    { id: 5, img: "./lambo/Lamborghini_Gallardo.jfif", name: "Gallardo", prix: "$199,000" }
+    { id: 1, img: "../imagess/Lamborghini_Aventador.jfif", name: "Aventador", prix: "$499,000" },
+    { id: 2, img: "../imagess/Lamborghini_Tormenta.jfif", name: "Tormenta", prix: "$240,000" },
+    { id: 3, img: "../imagess/Lamborghini_Sián.jpg", name: "Sian", prix: "$3,500,000" },
+    { id: 4, img: "../imagess/Lamborghini_Urus.jpg", name: "Urus", prix: "$270,000" },
+    { id: 5, img: "../imagess/Lamborghini_Gallardo.jfif", name: "Gallardo", prix: "$199,000" }
 ];
 let allCards = document.querySelector(".allCards");
 let allCardMapped = data.map(el => {
